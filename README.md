@@ -20,7 +20,7 @@ Automatically extract, categorize, and analyze expenses from bill images with be
 ```
 Vision Language Model Processing (No OCR!)
 ↓
-OpenRouter Gemini Flash (Primary)
+OpenRouter Gemini 2.5 Flash (Primary)
 ↓ (automatic fallback if needed)
 Groq Llama 4 Scout (Fallback)
 ↓
@@ -86,7 +86,7 @@ Navigate to: http://localhost:8501
 
 | Provider | Model | Speed | Cost |
 |----------|-------|-------|------|
-| OpenRouter | Gemini Flash 1.5 8B | Fast | FREE |
+| OpenRouter | Gemini 2.5 Flash | Fast | FREE |
 | Groq | Llama 4 Scout 17B | Very Fast | FREE |
 | OpenRouter | Llama 3.2 11B Vision | Medium | FREE |
 | OpenRouter | Qwen 2 VL 7B | Medium | FREE |
@@ -278,4 +278,4 @@ Suggestions welcome!
 
 **Built with ❤️ using Vision Language Models**
 
-OpenRouter • Groq • Streamlit • SQLite
+OpenRouter Gemini 2.5 Flash • Groq Llama 4 Scout • Streamlit • SQLite
